@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 # twitter_username: facespics
-github_username:  Nazeroth
+github_username: Nazeroth
 telegram_usernam: Duskgg
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -56,7 +56,7 @@ content:
         link: https://github.com/Nazeroth/project-manager-app
         # link_text: Project Website
         additional_links:
-          - title:  Nazeroth/project-manager-app
+          - title: Nazeroth/project-manager-app
             icon: fab fa-github
             url: https://project-manager-app-rs.netlify.app/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -66,12 +66,13 @@ content:
           This is Trello clone
         description: | # this will include new lines to allow paragraphs
           I started this project as a final project at Rolling Scopes School <mark>React Course</mark>. I have learned many skills through this such as Redux, i18next, RTK, TypeScript and also got teamwork experience.
-        
+
+      - layout: top-middle
         title: Momentum
         link: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/momentum/
         # link_text: Project Website
         additional_links:
-          - title:  Momentum
+          - title: Momentum
             icon: fab fa-github
             url: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/momentum//
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -82,6 +83,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a part of JavaScript course.
 
+      - layout: top-middle
         title: Virtual keyboard
         link: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/virtual-keyboard/
         # link_text: Project Website
@@ -107,9 +109,8 @@ content:
         sub_title: First support line CIO
         caption: August 2014 - 2022
         #quote: >
-          
-        #description: | # this will include new lines to allow paragraphs
 
+        #description: | # this will include new lines to allow paragraphs
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -121,12 +122,12 @@ content:
 
         quote: >
           Kharkiv National University of Radio Electronics (NURE) (Ukrainian: Харківський національний університет радіоелектроніки) is a higher education institution of the highest level of accreditation in Ukraine. It is one of the oldest technology universities in Ukraine, with over 7000 students and 30 scientific centers.
-          
+
           It has strong research and education capabilities in electrical engineering, electronics, telecommunications, ICT and computer technologies.
-          
+
           NURE hosts the International Academy of Applied Radio & Electronics. NURE pioneered the development of distance education in Ukraine. It has a high expertise in introduction of innovative technologies into education and business.
         #description: | # this will include new lines to allow paragraphs
-          
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -147,4 +148,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
