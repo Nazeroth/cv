@@ -1,0 +1,150 @@
+# Site
+repository: Nazeroth/cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nikolay Potopa
+title: Junior Front-end developer
+email: danieldefoe22@gmail.com
+website: www.github.com/Nazeroth
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  Nazeroth
+telegram_usernam: Duskgg
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Nikolay Potopa and I'm a junior frond-end developer. I have worked 8 years as first line support CIO and gain teamwork and leadership skills. Now i switched to development and motivated to grow up in that direction.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Project manager app
+        link: https://github.com/Nazeroth/project-manager-app
+        # link_text: Project Website
+        additional_links:
+          - title:  Nazeroth/project-manager-app
+            icon: fab fa-github
+            url: https://project-manager-app-rs.netlify.app/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is Trello clone
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a final project at Rolling Scopes School <mark>React Course</mark>. I have learned many skills through this such as Redux, i18next, RTK, TypeScript and also got teamwork experience.
+        
+        title: Momentum
+        link: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/momentum/
+        # link_text: Project Website
+        additional_links:
+          - title:  Momentum
+            icon: fab fa-github
+            url: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/momentum//
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is Momentum Google Chrome extension
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a part of JavaScript course.
+
+        title: Virtual keyboard
+        link: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/virtual-keyboard/
+        # link_text: Project Website
+        additional_links:
+          - title: Virtual keyboard
+            icon: fab fa-github
+            url: https://rolling-scopes-school.github.io/nazeroth-JS2020Q3/virtual-keyboard/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is simple virtual keyboard
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a part of JavaScript course.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: LanSecurity
+        link: LanSecurity.ru
+        # link_text: LanSecurity.ru
+        sub_title: First support line CIO
+        caption: August 2014 - 2022
+        #quote: >
+          
+        #description: | # this will include new lines to allow paragraphs
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: NURE, Kharkov
+        caption: 2010 - 2014
+        sub_title: Computer Engineering
+
+        quote: >
+          Kharkiv National University of Radio Electronics (NURE) (Ukrainian: Харківський національний університет радіоелектроніки) is a higher education institution of the highest level of accreditation in Ukraine. It is one of the oldest technology universities in Ukraine, with over 7000 students and 30 scientific centers.
+          
+          It has strong research and education capabilities in electrical engineering, electronics, telecommunications, ICT and computer technologies.
+          
+          NURE hosts the International Academy of Applied Radio & Electronics. NURE pioneered the development of distance education in Ukraine. It has a high expertise in introduction of innovative technologies into education and business.
+        #description: | # this will include new lines to allow paragraphs
+          
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in programming other interests and hobbies are:
+      - Sport Mafia
+      - Gaming
+      - Traveling
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
